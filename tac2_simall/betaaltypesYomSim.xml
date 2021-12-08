@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BetaalTypeEntries>
+	<BetaalType Name="GEEN" Bit="0">
+		<Field Name="Kaartbrand_id" Type="Integer" Value="0"/>
+	</BetaalType>
+	
+	<BetaalType Name="Bancontact WITH walletid" Bit="63">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1013"/>
+	</BetaalType>
+	
+	<BetaalType Name="Contactless Bancontact WITH walletid" Bit="63">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1013"/>
+		<Field Name="contactless" Value="true"/>
+	</BetaalType>
+	
+	<BetaalType Name="Bancontact WITHOUT walletid" Bit="63">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1013"/>
+	</BetaalType>
+	
+	<BetaalType Name="Contactless Bancontact WITHOUT walletid" Bit="63">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1013"/>
+		<Field Name="contactless" Value="true"/>
+	</BetaalType>
+	
+	<BetaalType Name="ECO_CHEQUE_MONIZZE WITH walletid" Bit="58">
+		<Field Name="Card_id_disp" Type="String" Value="5065000000000000"/>
+		<Field Name="ADD" Type="String" Value="200002#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2009"/>
+	</BetaalType>
+	
+	<BetaalType Name="ECO_CHEQUE_SODEXO WITH walletid" Bit="59">
+		<Field Name="Card_id_disp" Type="String" Value="6060770000000000"/>
+		<Field Name="ADD" Type="String" Value="200002#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3003"/>
+	</BetaalType>
+	
+	<BetaalType Name="ECO_CHEQUE_EDENRED WITH walletid" Bit="60">
+		<Field Name="Card_id_disp" Type="String" Value="6299140000000000"/>
+		<Field Name="ADD" Type="String" Value="200002#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3004"/>	
+	</BetaalType>
+	
+	<BetaalType Name="Monizze Mealvouchers WITH walletid" PartialPaymentPossible="true" Bit="58">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="5065000000000000"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2009"/>
+	</BetaalType>
+	
+	<BetaalType Name="Monizze Mealvouchers WITHOUT walletid" PartialPaymentPossible="true" Bit="58">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="5065000000000000"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2009"/>
+	</BetaalType>
+	
+	<BetaalType Name="Sodexo Mealvouchers WITH walletid" PartialPaymentPossible="false" Bit="59">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="6060770000000000"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3003"/>
+	</BetaalType>
+	
+	<BetaalType Name="Sodexo Mealvouchers WITHOUT walletid" PartialPaymentPossible="false" Bit="59">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="6060770000000000"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3003"/>
+	</BetaalType>
+	
+	<BetaalType Name="Edenred Mealvouchers WITH walletid" PartialPaymentPossible="false" Bit="60">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="6299140000000000"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3004"/>
+	</BetaalType>
+	
+	<BetaalType Name="Edenred Mealvouchers WITHOUT walletid" PartialPaymentPossible="false" Bit="60">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Card_id_disp" Type="String" Value="6299140000000000"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="3004"/>
+	</BetaalType>
+	
+	<BetaalType Name="Tina WITH walletid" Bit="64">
+		<Field Name="backup_mode" Value="true"/>
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Vic_proprietary_data" Type="byte[]" Value="5233443a20303530322030303044203430303920373831300d0a2020202020313233312030313030203030303220303030300d0a2020202020303030342038463042203841383520344246390d0a202020202031423642200d0a4b4543533a2032443737433935320d0a"/>
+		<Field Name="Tsc_id" Type="byte[]" Value="203200ff3920"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+	</BetaalType>
+	
+	<BetaalType Name="Maestro WITH walletid" Bit="2">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1009"/>
+	</BetaalType>
+	
+	<BetaalType Name="Maestro WITHOUT walletid" Bit="2">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1009"/>
+	</BetaalType>
+	
+	<BetaalType Name="Visa WITH walletid" Bit="5">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Visa WITHOUT walletid" Bit="5">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Visa_Signature WITH walletid" Bit="5">	
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a20202049534f32545241434b0d0a040d0a5349474e41545552450d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Visa_Signature WITHOUT walletid" Bit="5">	
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a20202049534f32545241434b0d0a040d0a5349474e41545552450d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Eurocard/MasterCard WITH walletid" Bit="6">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2003"/>
+	</BetaalType>
+	
+	<BetaalType Name="Eurocard/MasterCard WITHOUT walletid" Bit="6">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="2003"/>
+	</BetaalType>
+	
+	<BetaalType Name="Visa Electron WITH walletid" Bit="15">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="ADD" Type="String" Value="200001#"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1002"/>
+	</BetaalType>	
+	
+	<BetaalType Name="Visa Electron WITHOUT walletid" Bit="15">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="1002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Alipay WITHOUT walletid">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="9001"/>
+	</BetaalType>
+	
+	<BetaalType Name="WeChat Pay WITHOUT walletid">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="9002"/>
+	</BetaalType>
+	
+	<BetaalType Name="Payconiq WITHOUT walletid">
+		<Field Name="Acquirer_id" Type="Integer" Value="4000"/>
+		<Field Name="Date_and_time" Type="String" Value=""/>
+		<Field Name="Ticket_data" Type="byte[]" Value="110d0a4d45524348414e54205449434b4554200d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a0d0a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0d0a045465726d696e616c3a203031373030363130200d0a044d65726368616e743a202031373637333735370d0a04506572696f643a202030303737202020200d0a045472616e73616374696f6e3a2030303030303033350d0a0d0a040e20202020202020564953410d0a0d0a20202020202020202020202041303030303030303033313031300d0a0d0a040e20787878787878787878787878353832310d0a56616c696420746872753a2033302f30362f31330d0a0d0a0453414c452020200d0a04446174653a202031302f31302f323030382031353a30340d0a0d0a04417574682e20636f64653a203235373330380d0a0d0a0e42616e6b204361726420436f6d70616e790d0a040e546f74616c3a2020202020332c3235204555520d0a0d0a526561642d6d6f64653a202020436869700d0a0450494e204f4b0d0a0d0a0d0a0d0a040e20202020202044414e4b20550d0a040e2020202020544f54205a49454e530d0a0c0d0a13"/>
+		<Field Name="Transaction_protocol" Type="Integer" Value="12"/>
+		<Field Name="Transaction_identifier" Type="Integer" Value="123456"/>
+		<Field Name="Brand_id" Type="Integer" Value="2002" />
+		<Field Name="Cvm" Type="Integer" Value="21"/>
+		<Field Name="Kaartbrand_id" Type="Integer" Value="9003"/>
+	</BetaalType>
+		
+	<BetaalType Name="Colruyt kaart">
+		<Field Name="Kaartbrand_id" Type="Integer" Value="0"/>
+	</BetaalType>
+</BetaalTypeEntries>

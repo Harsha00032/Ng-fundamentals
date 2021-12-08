@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogEntries>
+	<logentry werkpost="localhost" loglevel="6" console="T" logfile="tac2-peripherals.log"/>
+	<syslogframe posX="100" posY="200" width="700" height="200" enabled="T" maxLines="10000"/>
+</LogEntries>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Klantendisplay>
+
+	<Configuration name="KlantendisplayElo"> 
+
+		<Implementationclass 		name="be.colrgen.javapos.displaylink.KlantendisplayElo" />
+		<!--Implementationclass 		name="com.colruytgroup.posfe.tac2.peripherals.customerdisplay.elo.lib.KlantendisplayElo" /-->
+
+		<Port						system="Windows" 	
+									enabled="false"
+									screenX="1920"
+									screenY="0"									
+									port="DUMMY"/>
+
+	    <Port						system="Linux"
+	    						 	enabled="false"
+	    						 	port="/dev/fb1"/>
+
+	    <Simulator					name="be.colrgen.javapos.displaylink.KlantenDisplaySimulator"
+	    							enabled="true"
+									positionX="0"
+									positionY="0"/>
+
+	</Configuration>
+
+</Klantendisplay>

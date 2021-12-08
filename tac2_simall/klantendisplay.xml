@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<Klantendisplay>
+	
+	<!--      -->
+	<!-- TEXT -->
+	<!--      -->
+	
+	<KlantendisplayEntry name="ARTICLE_DESCRIPTION_PART1" type="text">
+		<position 	x="10" y="60" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_DESCRIPTION_PART1_MIN" type="text">
+		<position 	x="10" y="60" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_DESCRIPTION_PART2" type="text">
+		<position 	x="10" y="120" align="left" />
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_DESCRIPTION_PART2_MIN" type="text">
+		<position 	x="10" y="120" align="left" />
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_QUANTITY_TITLE" type="text">
+		<position 	x="510" y="150" align="right" />
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="30" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_QUANTITY" type="text">
+		<position 	x="510" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_QUANTITY_MIN" type="text">
+		<position 	x="510" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_TITLE" type="text">
+		<position 	x="790" y="150" align="right"/>
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="30" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_WEIGHT_UNIT" type="text">
+		<position 	x="790" y="230" align="right"/>
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="40" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_WEIGHT" type="text">
+		<position 	x="722" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_WEIGHT_MIN" type="text">
+		<position 	x="722" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_PIECE" type="text">
+		<position 	x="790" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_AMOUNT_PIECE_MIN" type="text">
+		<position 	x="790" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_BIG_UNIT_PRICE_AMOUNT_WEIGHT" type="text">
+		<position 	x="722" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="73" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_BIG_UNIT_PRICE_AMOUNT_WEIGHT_MIN" type="text">
+		<position 	x="722" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="73" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_BIG_UNIT_PRICE_AMOUNT_PIECE" type="text">
+		<position 	x="790" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="73" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_BIG_UNIT_PRICE_AMOUNT_PIECE_MIN" type="text">
+		<position 	x="790" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="73" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+	
+	<KlantendisplayEntry name="ARTICLE_PRICE_TO_PAY_TITLE" type="text">
+		<position 	x="10" y="385" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="56" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_PRICE_TO_PAY" type="text">
+		<position 	x="790" y="395" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+
+
+
+
+
+	<KlantendisplayEntry name="ARTICLE_FROM_QUANTITY2_TITLE" type="text">
+		<position x="245" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_QUANTITY2" type="text">
+		<position x="500" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_QUANTITY2_MIN"
+		type="text">
+		<position x="500" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_WEIGHT2_AMOUNT" type="text">
+		<position x="470" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_WEIGHT2_AMOUNT_MIN" type="text">
+		<position x="470" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0"/>
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_WEIGHT2_AMOUNT_UNIT" type="text">
+		<position x="497" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE2_AMOUNT_WEIGHT"
+		type="text">
+		<position x="720" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE2_AMOUNT_WEIGHT_MIN"
+		type="text">
+		<position x="720" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE2_AMOUNT_WEIGHT_UNIT"
+		type="text">
+		<position x="765" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE2_AMOUNT_PIECE"
+		type="text">
+		<position x="790" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE2_AMOUNT_PIECE_MIN"
+		type="text">
+		<position x="790" y="295" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+
+
+
+
+
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_INCLUSIVE_INDICATION" type="text">
+		<position 	x="790" y="252" align="right"/>
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="15" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_INDICATION" type="text">
+		<position 	x="790" y="310" align="right"/>
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="15" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_AMOUNT_WEIGHT"
+		type="text">
+		<position x="720" y="290" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_AMOUNT_WEIGHT_MIN"
+		type="text">
+		<position x="720" y="290" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_AMOUNT_WEIGHT_UNIT"
+		type="text">
+		<position x="765" y="290" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_AMOUNT_PIECE"
+		type="text">
+		<position x="790" y="290" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_UNIT_PRICE_EXCLUSIVE_AMOUNT_PIECE_MIN"
+		type="text">
+		<position x="790" y="290" align="right" />
+		<font name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="40" />
+		<color foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+
+
+	
+	<KlantendisplayEntry name="ARTICLE_PRICE_TO_PAY_MIN" type="text">
+		<position 	x="790" y="395" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="255,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_PRESET_TARRA_AMOUNT_TITLE" type="text">
+		<position 	x="245" y="150" align="right"/>
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="30" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_PRESET_TARRA_AMOUNT_UNIT" type="text">
+		<position 	x="245" y="230" align="right"/>
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_PRESET_TARRA_AMOUNT" type="text">
+		<position 	x="205" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_PRESET_TARRA_AMOUNT_MIN" type="text">
+		<position 	x="205" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_NET_WEIGHT_AMOUNT_TITLE" type="text">
+		<position 	x="510" y="150" align="right"/>
+		<font  		name="arial narrow" bold="true"	italic="false" underline="false" strikethrough="false" size="30" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_NET_WEIGHT_AMOUNT_UNIT" type="text">
+		<position 	x="510" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="40" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_NET_WEIGHT_AMOUNT" type="text">
+		<position 	x="470" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_NET_WEIGHT_AMOUNT_MIN" type="text">
+		<position 	x="470" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="83" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_MANUAL_WEIGHT_INDICATION" type="text">
+		<position 	x="245" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="74" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="ARTICLE_MANUAL_WEIGHT_INDICATION_MIN" type="text">
+		<position 	x="245" y="230" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="74" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="ARTICLE_DISCOUNT" type="text">
+		<position 	x="10" y="465" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="ARTICLE_DISCOUNT_MIN" type="text">
+		<position 	x="10" y="465" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="255,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_EXTRA_INFO_TEXT" type="text">
+		<position 	x="10" y="465" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="ARTICLE_EXTRA_INFO_TEXT_MIN" type="text">
+		<position 	x="10" y="465" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="255,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	
+	<KlantendisplayEntry name="ARTICLE_EMPTIES_AMOUNT" type="text">
+		<position 	x="790" y="465" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="ARTICLE_EMPTIES_AMOUNT_MIN" type="text">
+		<position 	x="790" y="465" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	
+	
+	
+	
+	<KlantendisplayEntry name="BILL_TOTAL_TITLE_LEFT" type="text">
+		<position 	x="200" y="140" align="center" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="60" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_TITLE_RIGHT" type="text">
+		<position 	x="600" y="140" align="center" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="60" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_BILL_1" type="text">
+		<position 	x="200" y="233" align="center" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_BILL_2" type="text">
+		<position 	x="200" y="323" align="center" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_BILL_3" type="text">
+		<position 	x="200" y="413" align="center" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_TOTAL_1" type="text">
+		<position 	x="750" y="233" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_TOTAL_2" type="text">
+		<position 	x="750" y="323" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BILL_TOTAL_TOTAL_3" type="text">
+		<position 	x="750" y="413" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+
+
+
+	<KlantendisplayEntry name="PAYMENT_TOTAL_TO_PAY_TITLE" type="text">
+		<position 	x="415" y="143" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="PAYMENT_TOTAL_TO_PAY_AMOUNT" type="text">
+		<position 	x="780" y="143" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="PAYMENT_TOTAL_PAID_TITLE" type="text">
+		<position 	x="415" y="233" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="PAYMENT_TOTAL_PAID_AMOUNT" type="text">
+		<position 	x="780" y="233" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="PAYMENT_BALANCE_TO_PAY_TITLE" type="text">
+		<position 	x="415" y="323" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="PAYMENT_BALANCE_TO_PAY_AMOUNT" type="text">
+		<position 	x="780" y="323" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="PAYMENT_CASH_RETURN_OR_BILL_PAID_TITLE" type="text">
+		<position 	x="415" y="413" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+		
+	<KlantendisplayEntry name="PAYMENT_CASH_RETURN_AMOUNT" type="text">
+		<position 	x="780" y="413" align="right" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="83" />
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+
+
+
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_1" type="text">
+		<position 	x="10" y="70" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_2" type="text">
+		<position 	x="10" y="140" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_3" type="text">
+		<position 	x="10" y="210" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_4" type="text">
+		<position 	x="10" y="280" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_5" type="text">
+		<position 	x="10" y="350" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_6" type="text">
+		<position 	x="10" y="420" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="50" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_1_MIN" type="text">
+		<position 	x="10" y="70" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_2_MIN" type="text">
+		<position 	x="10" y="140" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_3_MIN" type="text">
+		<position 	x="10" y="210" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_4_MIN" type="text">
+		<position 	x="10" y="280" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_5_MIN" type="text">
+		<position 	x="10" y="350" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="GENERAL_TEXT_LINE_6_MIN" type="text">
+		<position 	x="10" y="420" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="50" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_1" type="text">
+		<position 	x="10" y="400" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_2" type="text">
+		<position 	x="10" y="430" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_3" type="text">
+		<position 	x="10" y="460" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="false" size="25" />
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_1_MIN" type="text">
+		<position 	x="10" y="400" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="25" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_2_MIN" type="text">
+		<position 	x="10" y="430" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="25" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="COMMENT_TEXT_LINE_3_MIN" type="text">
+		<position 	x="10" y="460" align="left" />
+		<font  		name="arial narrow" bold="true" italic="false" underline="false" strikethrough="true" size="25" />
+		<color		foreground="0,0,0" background="255,0,0" />
+	</KlantendisplayEntry>
+	
+	<!--      -->
+	<!-- LINE -->
+	<!--      -->
+	
+	<!-- 
+	<KlantendisplayEntry name="TestLine2" type="line"> 	
+		<position1 x="0" y="0" />
+		<position2 x="799" y="479" /> 	
+		<color foreground="0,255,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="DefaultLine" type="line"> 	
+		<position1 	x="799"	y="479" />
+		<position2 	x="799" y="479" /> 			<color		foreground="50,50,50" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="TestLine1" type="line"> 	
+		<position1 	x="799" y="0" />
+		<position2 	x="0" y="479" /> 	
+		<color		foreground="255,0,0" />
+	</KlantendisplayEntry>
+	-->
+
+	<!--           -->
+	<!-- RECTANGLE -->
+	<!--           -->	
+
+	<!-- 
+	<KlantendisplayEntry name="StartupScreen" type="rectangle"> 	
+		<position 	x="0" y="0" />
+		<size 		width="800"	heigth="480" /> 	
+		<color		foreground="0,255,0" />
+	</KlantendisplayEntry>
+	-->
+
+	<KlantendisplayEntry name="RECT_CLEAR_SCREEN_1" type="rectangle"> 	
+		<position 	x="0" y="0" />
+		<size 		width="800" heigth="480" /> 	
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="RECT_CLEAR_SCREEN_2" type="rectangle"> 	
+		<position 	x="0" y="0" />
+		<size 		width="800" heigth="480" /> 	
+		<color		foreground="255,255,255" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="RECT_DARK_SCREEN" type="rectangle"> 	
+		<position 	x="0" y="0" />
+		<size 		width="800" heigth="480" /> 	
+		<color		foreground="0,0,0" />
+	</KlantendisplayEntry>
+
+	<!--        -->
+	<!-- BORDER -->
+	<!--        -->
+	
+	<KlantendisplayEntry name="BORDER_ARTICLE_PRICE_TO_PAY" type="border">
+		<position 	x="5" y="320" />
+		<size 		width="790" heigth="95" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,0" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_TITLE_LEFT" type="border">
+		<position 	x="5" y="80" />
+		<size 		width="396" heigth="82" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,90,13" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_LEFT_1" type="border">
+		<position 	x="5" y="160" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_LEFT_2" type="border">
+		<position 	x="5" y="250" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_LEFT_3" type="border">
+		<position 	x="5" y="340" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_TITLE_RIGHT" type="border">
+		<position 	x="399" y="80" />
+		<size 		width="396" heigth="82" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,90,13" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_RIGHT_1" type="border">
+		<position 	x="399" y="160" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_RIGHT_2" type="border">
+		<position 	x="399" y="250" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_BILL_TOTAL_RIGHT_3" type="border">
+		<position 	x="399" y="340" />
+		<size 		width="396" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+
+
+
+
+	<KlantendisplayEntry name="BORDER_PAYMENT_TOTAL_TO_PAY" type="border">
+		<position 	x="5" y="70" />
+		<size 		width="790" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="BORDER_PAYMENT_TOTAL_PAID" type="border">
+		<position 	x="5" y="160" />
+		<size 		width="790" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,255,255" />
+	</KlantendisplayEntry>
+	
+	<KlantendisplayEntry name="BORDER_PAYMENT_BALANCE_TO_PAY" type="border">
+		<position 	x="5" y="250" />
+		<size 		width="790" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="255,0,0" />
+	</KlantendisplayEntry>
+
+	<KlantendisplayEntry name="BORDER_PAYMENT_CASH_RETURN_OR_BILL_PAID" type="border">
+		<position 	x="5" y="340" />
+		<size 		width="790" heigth="92" />
+		<border		width="2" />
+		<color		foreground="0,0,0" background ="20,140,90" />
+	</KlantendisplayEntry>
+
+
+
+	
+	<!--       -->
+	<!-- IMAGE -->
+	<!--       -->
+	
+	<!-- 
+	<KlantendisplayEntry name="TestImage1" type="image"> 	
+		<position 	x="225" y="200" />
+		<file		name="pic/colruyt.jpg"/>	
+	</KlantendisplayEntry>
+	-->
+
+	<KlantendisplayEntry name="IMAGE_EMPTIES" type="image"> 	
+		<position 	x="570" y="430" />
+		<file		name="pic/fles_cd.gif"/>	
+	</KlantendisplayEntry>
+
+</Klantendisplay>

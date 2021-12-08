@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PortEntries>
+
+   <Port PortName="HandScanner">      
+      <prop name="Simulator" value="HandScannerSimulator"/>
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>       
+   </Port>
+      
+   <Port PortName="TafelScanner">    
+      <prop name="Simulator" value="TafelScannerSimulator"/>
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>       
+   </Port>
+
+   <Port PortName="KlantenDisplay">
+      <prop name="Simulator" value="KlantenDisplaySimulator"/>
+      <!--prop name="Simulator" value="GEEN"/-->
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>
+   </Port>
+
+   <Port PortName="ThalesTpeCAT">
+      <prop name="Simulator" value="ThalesTpeCATSimulator"/>
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>
+   </Port>
+
+   <Port PortName="Chequedrukker">
+      <prop name="Simulator" value="ChequedrukkerSimulator"/>
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>
+   </Port>
+       
+   <Port PortName="mtScale">
+      <prop name="Simulator" value="mtScaleSimulator"/>
+      <prop name="Windows" value="COM1"/>
+      <prop name="Linux" value="/dev/ttyS1"/>
+   </Port>
+
+</PortEntries>

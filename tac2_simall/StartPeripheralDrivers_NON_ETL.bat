@@ -1,0 +1,1 @@
+start /min "Tac2.0 - CGS Peripheral Drivers" java -cp "peripherals-39.0.0-SNAPSHOT.jar;.\opt\javaposlibs\*;." org.springframework.boot.loader.JarLauncher

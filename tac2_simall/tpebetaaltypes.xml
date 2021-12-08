@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BetaalTypeEntries>
+	<BetaalType Name="Carte Blue" TlvValue="A191234567890123456789" />
+	<BetaalType Name="Carte Chèque Déjeuner" TlvValue="A165320411234567890" />
+	<BetaalType Name="Monéo" TlvValue="A165292340000000000" />
+	<BetaalType Name="Sodexo Pass Restaurant" TlvValue="A164838461111111111" />
+	<BetaalType Name="Edenred Tickets Restaurant" TlvValue="A165314222222222222" />
+	<BetaalType Name="Monetico Resto" TlvValue="A165335273333333333" />
+	<BetaalType Name="Apetiz Natixis Intertitre" TlvValue="A164838454444444444" />
+</BetaalTypeEntries>

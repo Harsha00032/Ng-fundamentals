@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScaleCertConfig>
+   <JavaPOSLibs Path="./opt/javaposlibs"></JavaPOSLibs>
+</ScaleCertConfig>

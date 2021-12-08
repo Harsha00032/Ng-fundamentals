@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN" "jpos/res/jcl.dtd">
+<JposEntries>
+	<!--Saved by JavaPOS jpos.config/loader (JCL) version 2.2.0 on 8/03/05 0:14-->
+
+	<JposEntry logicalName="DraadlozeHandScanner">
+		<creation factoryClass="be.colrgen.javapos.InfocoJposServiceInstanceFactory" serviceClass="be.colrgen.javapos.scanner.service.ScannerServiceBarcodeLezer"/>
+		<vendor name="Infoco NV" url="http://www.infoco.be"/>
+		<jpos category="Scanner" version="1.8"/>
+		<product description="Scanner at serial COM, entries in same JposEntry" name="Symbol Technologies, Inc. Services for JavaPOS(TM) Standard" url="http://www.symbol.com"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<prop name="Parity" value="2"/>
+		<prop name="DataBits" value="8"/>
+		<prop name="Port" value="HandScanner"/>
+		<prop name="StopBits" value="1"/>
+	</JposEntry>
+
+	<JposEntry logicalName="DraadHandScanner">
+		<creation factoryClass="be.colrgen.javapos.InfocoJposServiceInstanceFactory" serviceClass="be.colrgen.javapos.scanner.service.ScannerServiceBarcodeLezer"/>
+		<vendor name="Infoco NV" url="http://www.infoco.be"/>
+		<jpos category="Scanner" version="1.8"/>
+		<product description="Scanner at serial COM, entries in same JposEntry" name="Symbol Technologies, Inc. Services for JavaPOS(TM) Standard" url="http://www.symbol.com"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<prop name="Parity" value="2"/>
+		<prop name="DataBits" value="8"/>
+		<prop name="Port" value="HandScanner"/>
+		<prop name="StopBits" value="1"/>
+	</JposEntry>
+
+	<JposEntry logicalName="TafelScanner">
+		<creation factoryClass="be.colrgen.javapos.InfocoJposServiceInstanceFactory" serviceClass="be.colrgen.javapos.scanner.service.ScannerServiceBarcodeLezer"/>
+		<vendor name="Infoco NV" url="http://www.infoco.be"/>
+		<jpos category="Scanner" version="1.8"/>
+		<product description="Scanner at serial COM, entries in same JposEntry" name="Symbol Technologies, Inc. Services for JavaPOS(TM) Standard" url="http://www.symbol.com"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<prop name="Parity" value="2"/>
+		<prop name="DataBits" value="8"/>
+		<prop name="Port" value="TafelScanner"/>
+		<prop name="StopBits" value="1"/>
+	</JposEntry>
+
+	<JposEntry logicalName="ThalesTpeCAT">
+		<creation factoryClass="be.colrgen.javapos.InfocoJposServiceInstanceFactory" serviceClass="be.colrgen.javapos.CAT.service.CATServiceThalesTpeCAT"/>
+		<vendor name="Infoco NV" url="http://www.infoco.be"/>
+		<jpos category="CAT" version="1.8"/>
+		<product description="=Thales TPE CAT" name="TPE" url="http://www.infoco.be"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<prop name="DataBits" value="7"/>
+		<prop name="Parity" value="2"/>
+		<prop name="Port" value="ThalesTpeCAT"/>
+		<prop name="StopBits" value="1"/>
+		<prop name="responseTimeout" value="180000"/>
+		<prop name="protocolretries" value="2"/>
+		<prop name="acktimeout" value="600"/>
+		<prop name="naeotwachttijd" value="1200"/>
+	</JposEntry>
+
+	<JposEntry logicalName="ChequeDrukker">
+		<creation factoryClass="be.colrgen.javapos.InfocoJposServiceInstanceFactory" serviceClass="be.colrgen.javapos.POSPrinter.service.POSPrinterServiceChequedrukker"/>
+		<vendor name="Vendor Name" url="http://www.infoco.be"/>
+		<jpos version="1.6" category="Tac"/>
+		<product description="Product Description" name="Product Name" url="http://www.infoco.be"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<!--prop name="Port" type="String" value="/dev/ttyS0"/-->
+		<prop name="Port" value="Chequedrukker"/>
+		<prop name="Baud" value="9600"/>
+		<prop name="DataBits" value="8"/>
+		<prop name="StopBits" value="1"/>
+		<prop name="Parity" value="0"/>
+		<!--prop name="FlowControl" value="0"/-->
+		<prop name="deviceBus" value="Unknown"></prop>
+		<prop name="LogFile" type="String" value="log_chequedrukker.out"/>
+		<prop name="LogLevel" type="Integer" value="3"/>
+	</JposEntry>
+
+	<JposEntry logicalName="MettlerScale">
+		<creation factoryClass="com.mt.jpos.MettlerScaleInstanceFactory" serviceClass="com.mt.jpos.MettlerL2SCScaleService"/>
+		<vendor name="Mettler-Toledo " url="http://www.mt.com"/>
+		<jpos category="Scale" version="1.6"/>
+		<product description="Mettler Scale Service, v. 1.0, (c) 2004" name="Product Name"/>
+
+		<!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+		<prop name="physicalDeviceDescripton" value="Mettler-Toledo RS232 Scale L2-SCx"/>
+		<prop name="physicalDeviceName" value="Mettler-Toledo RS232 Scale L2-SCx"/>
+		<prop name="Port" value="mtScale"/>
+		<prop name="Baud" value="9600"/>
+		<prop name="Parity" value="1"/>
+		<prop name="StopBits" value="1"/>
+		<prop name="DataBits" value="7"/>
+		<prop name="metricUnit" value="true"/>
+		<prop name="maximumWeight" value="6000"/>
+		<prop name="tracing" value="false"/>
+		<prop name="tracingOutputFile" value="tracingScale.txt"/>
+		<prop name="tracingBySystemOut" value="false"/>
+	</JposEntry>
+	
+	<JposEntry logicalName="Drawer">
+    <creation factoryClass="de.etl.jpos.drawer.loader.JposDrawerServiceFactory" serviceClass="de.etl.jpos.drawer.service.impl.DrawerServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="Drawer" version="1014000" />
+    <product description="Drawer Service" name="Drawer" url=""/>
+    
+    <prop name="syslog_base_log_level" type="Integer" value="0" />
+  </JposEntry>
+    
+  <JposEntry logicalName="Lamp">
+    <creation factoryClass="de.etl.jpos.lamp.loader.JposLampServiceFactory" serviceClass="de.etl.jpos.lamp.service.impl.LampServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="Lamp" version="1014000" />
+    <product description="Lamp Service" name="Lamp" url=""/>
+    
+    <prop name="syslog_base_log_level" type="Integer" value="0" />
+  </JposEntry>
+  
+  <JposEntry logicalName="EEprom">
+    <creation factoryClass="de.etl.jpos.eeprom.loader.JposEEpromServiceFactory" serviceClass="de.etl.jpos.eeprom.service.impl.EEpromServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="EEprom" version="1014000" />
+    <product description="EEprom Service" name="Eeprom" url=""/>
+    
+    <prop name="syslog_base_log_level" type="Integer" value="0" />
+  </JposEntry>
+  
+  <JposEntry logicalName="MSR">
+    <creation factoryClass="de.etl.jpos.msr.loader.JposMsrServiceFactory" serviceClass="de.etl.jpos.msr.service.impl.MsrServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="MSR" version="1014000" />
+    <product description="Msr Service" name="Msr" url=""/>
+    
+    <prop name="VendorID" type="String" value="0801"/>
+    <prop name="TIMEOUT" type="Integer" value="86400000"/>
+    <prop name="syslog_base_log_level" type="Integer" value="0" />
+    <prop name="mode_simulator" type="Boolean" value="True" />
+  </JposEntry>
+   
+  <JposEntry logicalName="Backlight">
+    <creation factoryClass="de.etl.jpos.backlight.loader.JposBacklightServiceFactory" serviceClass="de.etl.jpos.backlight.service.impl.BacklightServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="Backlight" version="1014000" />
+    <product description="Backlight Service" name="Backlight" url=""/>
+    
+    <prop name="BACKLIGHT_DIMMING_MAX" type="Integer" value="10"/>
+    <prop name="syslog_base_log_level" type="Integer" value="0" />
+  </JposEntry>
+  
+  <JposEntry logicalName="BaseConfiguration">
+    <creation factoryClass="de.etl.jpos.backlight.loader.JposBacklightServiceFactory" serviceClass="de.etl.jpos.backlight.service.impl.BacklightServiceImpl" />
+    <vendor name="Katek Mauerstetten GmbH" url="https://katek-group.de" />
+    <jpos category="BaseConfiguration" version="1014000" />
+    <product description="Basic" name="ChannelConfiguration" url=""/>
+    
+    <prop name="host" type="String" value="localhost"/>
+    <prop name="command_port" type="Integer" value="11221"/>
+    <prop name="event_port" type="Integer" value="11222"/>
+    <prop name="ping_timeout" type="Integer" value="4000"/>
+  </JposEntry>
+
+</JposEntries>

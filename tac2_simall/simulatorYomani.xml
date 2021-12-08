@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimulatorEntries>
+   
+
+    <Simulator SimulatorName="YomaniSimulator">
+        <prop name="XCoord" value="100"/>
+        <prop name="YCoord" value="100"/>
+
+     
+    </Simulator>
+
+ 
+</SimulatorEntries>

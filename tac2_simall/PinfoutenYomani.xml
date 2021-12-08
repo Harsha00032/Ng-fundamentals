@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PinFoutenEntries>
+	<PinFout Name="0001  Max failed PIN input attempts" />
+	<PinFout Name="0002  PIN input timeout" />
+	<PinFout Name="9002  PINFLOW_INC_CODE_NO_KEY_FAULT" />
+	<PinFout Name="9003  PINFLOW_INC_CODE_CRYPTO_FAULT" /> 
+	<PinFout Name="9004  PINFLOW_INC_CODE_NO_PIN_FAULT" /> 
+	<PinFout Name="9005  PINFLOW_INC_CODE_BAD_MAC" /> 
+	<PinFout Name="9006  PINFLOW_INC_CODE_BAD_MDC" /> 
+	
+</PinFoutenEntries>
+

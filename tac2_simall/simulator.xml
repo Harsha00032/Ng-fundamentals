@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimulatorEntries>
+    <Simulator SimulatorName="HandScannerSimulator">    
+        <prop name="className" value="be.colrgen.javapos.scanner.simulator.BarcodeLezerSimulator"/>
+        <prop name="instanceName" value="HandScanner"/>
+        <prop name="XCoord" value="650"/>
+        <prop name="YCoord" value="0"/>        
+    </Simulator>
+    
+    <Simulator SimulatorName="TafelScannerSimulator">    
+        <prop name="className" value="be.colrgen.javapos.scanner.simulator.BarcodeLezerSimulator"/>
+        <prop name="instanceName" value="TafelScanner"/>
+        <prop name="XCoord" value="400"/>
+        <prop name="YCoord" value="0"/>        
+    </Simulator>
+
+    <Simulator SimulatorName="KlantenDisplaySimulator">
+        <prop name="className" value="be.colrgen.javapos.klantendisplaysimulator.KlantenDisplaySimulator"/>
+        <prop name="instanceName" value="KlantenDisplaySimulator"/>
+        <prop name="XCoord" value="0"/>
+        <prop name="YCoord" value="0"/>
+    </Simulator>
+
+    <Simulator SimulatorName="ColruytPINPadSimulator">
+        <prop name="className" value="be.colrgen.javapos.ppterminalsimulator.PPTerminalSimulator"/>
+        <prop name="instanceName" value="PinpadTerminalSimulator"/>
+        <prop name="XCoord" value="0"/>
+        <prop name="YCoord" value="570"/>
+    </Simulator>
+
+    <Simulator SimulatorName="BanksysCATSimulator">
+        <prop name="className" value="be.colrgen.javapos.CAT.simulator.BanksysCATSimulator"/>
+        <prop name="instanceName" value="BanksysCATSimulator"/>
+        <prop name="XCoord" value="900"/>
+        <prop name="YCoord" value="0"/>
+        <prop name="kissretries" value="3"/>
+        <prop name="acktimeout" value="1000"/>
+        <prop name="betaaltypesbestand" value="betaaltypes.xml"/>
+        <!--prop name="kissprotocolsimulator"/-->
+	  <!--prop name="autoAntwoordDelay" value="2000"/-->
+	  <!--prop name="auto1steCancelAntwoordDelay" value="true"/-->
+    </Simulator>
+
+    <Simulator SimulatorName="TacSimulator">
+        <prop name="className" value="be.colrgen.javapos.tacsimulator.TacSimulator"/>
+        <prop name="instanceName" value="TacSimulator"/>
+        <prop name="XCoord" value="0"/>
+        <prop name="YCoord" value="235"/>
+        <prop name="AutoPowerOn" value="true"/>
+    </Simulator>
+
+    <!--Simulator SimulatorName="IngenicoCATSimulator">
+        <prop name="className" value="be.colrgen.javapos.CAT.simulator.IngenicoCATSimulator"/>
+        <prop name="instanceName" value="IngenicoCATSimulator"/>
+        <prop name="XCoord" value="900"/>
+        <prop name="YCoord" value="0"/>
+        <prop name="biprotocolretries" value="2"/>
+        <prop name="acktimeout" value="2500"/>
+        <prop name="bistandardprotocolsimulator"/>
+        <prop name="autoAntwoordDelay" value="500"/>
+    </Simulator-->
+
+    <Simulator SimulatorName="ThalesTpeCATSimulator">    
+        <prop name="className" value="be.colrgen.javapos.CAT.simulator.ThalesTpeCATSimulator"/>
+        <prop name="instanceName" value="ThalesTpeCATSimulator"/>
+        <prop name="XCoord" value="700"/>
+        <prop name="YCoord" value="400"/>
+        <prop name="protocolretries" value="2"/>
+        <prop name="acktimeout" value="1000"/>        
+        <prop name="protocolsimulator"/>
+        <prop name="betaaltypesbestand" value="tpebetaaltypes.xml"/>
+        <!--prop name="autoAntwoordDelay" value="500"/-->        
+    </Simulator>
+
+    <Simulator SimulatorName="CetrelLuxCATSimulator">
+        <prop name="className" value="be.colrgen.javapos.CAT.simulator.CetrelLuxCATSimulator"/>
+        <prop name="instanceName" value="CetrelLuxCATSimulator"/>
+        <prop name="XCoord" value="900"/>
+        <prop name="YCoord" value="0"/>
+        <prop name="biprotocolretries" value="2"/>
+        <prop name="acktimeout" value="2500"/>
+        <prop name="bistandardprotocolsimulator"/>
+        <!--prop name="autoAntwoordDelay" value="500"/-->
+    </Simulator>
+
+    <Simulator SimulatorName="ChequedrukkerSimulator">
+        <prop name="className" value="be.colrgen.javapos.POSPrinter.simulator.ChequedrukkerSimulator"/>
+        <prop name="instanceName" value="ChequedrukkerSimulator"/>
+        <prop name="XCoord" value="0"/>
+        <prop name="YCoord" value="300"/>
+        <prop name="ShowCommands"/>
+    </Simulator>
+    
+    <Simulator SimulatorName="mtScaleSimulator">
+        <prop name="className" value="be.colrgen.javapos.dialogscalesimulator.BalansSimulator"/>
+        <prop name="instanceName" value="mtScaleSimulator"/>
+        <prop name="XCoord" value="700"/>
+        <prop name="YCoord" value="100"/>
+    </Simulator>
+</SimulatorEntries>
